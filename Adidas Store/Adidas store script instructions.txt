@@ -1,0 +1,26 @@
+Instructions for Running the Script:
+
+1) Install Required Packages:
+
+   - Ensure you have Python installed on your system.
+   - The script uses requests for making HTTP requests and jsonlines for handling JSON Lines format. If you haven't installed these packages, install them using pip:
+          - pip install requests jsonlines
+
+2) Run the Script:
+
+    - Save the script provided by copying it into a .py file, such as Muhammed_Sinan_K_S_adidas.py.
+    - Open a terminal or command prompt.
+    - Navigate to the directory where Muhammed_Sinan_K_S_adidas.py is saved.
+    - Run the script using Python :-
+            - python Muhammed_Sinan_K_S_adidas.py
+
+3) Script Execution:
+
+    - The script will attempt to fetch data from the specified Adidas Thailand API endpoint (API_URL).
+    - It will handle up to 3 retries (max_retries) if there are connection issues or errors.
+    - Upon successful retrieval of store data, it will save the data into a file named Muhammed_Sinan_K_S_adidas_stores.jsonl in the same directory.
+    - If no data is fetched or errors occur, appropriate messages will be printed to the console for debugging.
+
+4) Verify Output:
+
+    - After the script completes, check the generated Muhammed_Sinan_K_S_adidas_stores.jsonl file to ensure it contains the scraped store location data.

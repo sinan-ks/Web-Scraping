@@ -1,0 +1,29 @@
+Instructions to Run the Script:-
+
+1) Setup Requirements:
+
+    - Ensure you have Python installed on your system. 
+    - Install Selenium using pip if not already installed :-
+             - pip install selenium
+
+2) WebDriver Setup:
+
+    - Download the appropriate WebDriver for your browser. 
+    - Place the WebDriver executable in a directory and make note of its path.
+
+3) Script Execution:
+
+    - Save the provided script as Muhammed_Sinan_K_S_kia.py.
+    - Replace /path/to/chromedriver in the script with the actual path to your WebDriver executable.
+
+4) Running from CLI:
+
+    - Open a terminal or command prompt.
+    - Navigate to the directory where Muhammed_Sinan_K_S_kia.py is saved.
+    - Run the script by executing the command :-
+               - python Muhammed_Sinan_K_S_kia.py.
+
+5) Output:
+
+    - The script will scrape dealer data from the Kia Thailand website and save it to a file named Muhammed_Sinan_K_S_kia_dealers.jsonl in the same directory where the script is located.
+    - Each line in the jsonl file will contain a JSON object representing a dealer location, including fields like name, address/phone, operating_hours, and service_category.
